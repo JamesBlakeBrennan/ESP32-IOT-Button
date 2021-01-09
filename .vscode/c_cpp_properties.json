@@ -70,7 +70,12 @@
                 "${IDF_PATH}/components/bt/host/nimble/nimble/nimble/host/services/gap/include",
                 "${IDF_PATH}/components/bt/host/nimble/nimble/nimble/host/services/gatt/include",
                 "C:/esp/tools/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/include",
-                "C:/esp/tools/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include"
+                "C:/esp/tools/.espressif/tools/xtensa-esp32-elf/esp-2020r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0/include",
+                "C:/esp/esp-idf/components/esp_netif/include",
+                "C:/esp/esp-idf/components/esp_eth/include",
+                "C:/esp/esp-idf/components/wpa_supplicant/include/esp_supplicant",
+                "C:/esp/esp-idf/components/driver/esp32/include",
+                "C:/esp/esp-idf/components/driver/esp32/include"
             ],
             "defines": [],
             "cStandard": "c11",
