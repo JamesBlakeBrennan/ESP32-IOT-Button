@@ -222,6 +222,7 @@ void wifi_init_sta(void)
     ESP_ERROR_CHECK(esp_event_handler_unregister(WIFI_EVENT, ESP_EVENT_ANY_ID, &event_handler));
     
     vEventGroupDelete(wake_up_wifi_event_group);
+    return;
 }
 
 void startup(void)
@@ -260,7 +261,7 @@ void running(void)
 
     esp_sleep_enable_ext0_wakeup(PIN_BUTTON, 0);
     printf("going into deepsleep, button has been pressed %d times\n", buttonPresses++);
-    //esp_wifi_stop();
+    esp_wifi_stop();
     esp_deep_sleep_start();
     }
     
