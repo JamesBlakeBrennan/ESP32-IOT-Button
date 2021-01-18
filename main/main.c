@@ -18,7 +18,16 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-//the following code is taken from the ESP touch example provided with the esp idf
+//The following definitions should be the only things you need to change to get the code working on your board
+
+//This is the pin on your board that the button is connected to:
+#define PIN_BUTTON 15
+
+//This is the address of your MQTT server
+#define MQTT_SERVER "mqttaddresshere"
+//
+
+//the following is a combination of code written myself mixed with example code provided without terms or conditions by Espressif systems
 
 /* FreeRTOS event group to signal when we are connected & ready to make a request */
 static EventGroupHandle_t s_wifi_event_group;
@@ -39,7 +48,7 @@ static const char *TAG1 = "wifi station";
 static int s_retry_num = 0;
 
 
-#define PIN_BUTTON 15
+
 #define PIN_LED 2
 #define EXAMPLE_ESP_MAXIMUM_RETRY  5
 

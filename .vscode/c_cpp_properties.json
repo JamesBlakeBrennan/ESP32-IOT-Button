@@ -75,7 +75,9 @@
                 "C:/esp/esp-idf/components/esp_eth/include",
                 "C:/esp/esp-idf/components/wpa_supplicant/include/esp_supplicant",
                 "C:/esp/esp-idf/components/driver/esp32/include",
-                "C:/esp/esp-idf/components/driver/esp32/include"
+                "C:/esp/esp-idf/components/driver/esp32/include",
+                "C:/esp/esp-idf/components/mqtt/esp-mqtt/include",
+                "C:/esp/esp-idf/components/mqtt/esp-mqtt/include"
             ],
             "defines": [],
             "cStandard": "c11",
