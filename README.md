@@ -15,9 +15,11 @@ This is a picture of the simple circuit I used to test my button. This is all yo
 
 To personalize the code for your own board and MQTT server, change the code shown below, which is located at the top of the main file.
 
-
+![Image of Circuit](https://lh3.googleusercontent.com/9gQ4P-SWMrMownRHrVhCpot1MBPSubLPbn9I-bjz0Ghgkbwp9f56gR2xB7h1rxEjzb5fXEZhDzXRNznvXyMrmI6Pw6NAau79_CR2f_4X3Wu_vSLDLEUSeczTeILO37iov_y0Eb6QOgEL6KZbuX5bymtDMuNuXskGvfTslAeHWwy3U_cRYH8ZFGkDLqtq-FMlIDdudhcKx4h3yJanAc8kLat2mds4uKHvI-4dHm2vb1wqSzkp7uVmZZB9-WZ5dGwUs7rtTu3u78i8EUQDkbXcNz8VCQIQ4HBzp_3RUJTMsshiOagNJ22OErPI4fUgZGTzLkhbdyml1rI3sPy5VCjlrm0UVsaOjg5cqBC8uRhm3AkEAmTipbHn2qDOFtNRVKMEo1flpv4x_e8ojA5tGLYZuDVTBsZK0rIFTOhDMidQqdfuxwpdrvCkWMnOyKLmam7IhK8BxUX3q3AP9ND9H4LLrl6nXMBmjcUakBev1tDm0q7JGWEvSprJquQkGlMmx6ILE3dOQqo8EZSfb3WAKav9YESYhL-QdxSOBkKFjGih43sWNWIJtBDn9vyPvLodTGpu216BjP1iSvchlkooOR5q0T8WR0jURrDSx_fs0pHxYFmWvVtWtSxTfnjFyjn0Pgo0gtV75Nte1RT0sk6iPkvaTk4QV9Vo6th7U3sBIsL-kwYX4K_ib0hSIOkBDndP=w901-h162-no?authuser=1)
 
 Unless you are familiar with C and the FreeRTOS header files, I wouldnt mess with any of the other code. After building and flashing you should be all set.
+
+Once the code is loaded on your board you will need to connect the board to wifi.  This is done using the ESPtouch App which is available on Android and IOS. Its very straightforward but if you need help please refer to the official documentation concerning ESPtouch. 
 
 ## Hardware
 
